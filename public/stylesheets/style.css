@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: teal;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1em:
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.form-field {
+  display: flex
+  flex-direction: column;
+  margin: 1em 0;
+}
+.form-field label {
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+.required {
+  color: red;
+}
+.form-field input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #f0f0f0;
+  border-bottom: 1px solid teal;
+}
+#fp {
+  font-size: 0.75rem;
+  font-style: italic;
+  display: block;
+  width: max-content;
+  margin-top: -0.7em;
+}
+.auth-btn {
+  width: 100%;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border: none;
+  background: teal;
+  color: #fff;
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+.form-footer {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.form-footer a {
+  text-transform: uppercase;
+}
+.error {
+  text-align: center;
+  font-size: 0.7rem;
+  color: red;
+}
+.pad {
+  padding: 1em;
+}
+.btn-link {
+  padding: 10px 35px;
+  background: teal;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 1em;
+  border-radius: 8px;
+}
